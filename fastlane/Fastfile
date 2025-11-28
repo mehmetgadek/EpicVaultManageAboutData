@@ -7,7 +7,7 @@ platform :ios do
 	  app_identifier: "com.EpicVaultManageAbout",
       username: "mehmetgadek@icloud.com",
       skip_binary_upload: true,
-      skip_metadata: false,
+      skip_metadata: true,
       force: true,
       metadata_path: "./fastlane/metadata",
 	  skip_screenshots: false,
